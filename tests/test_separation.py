@@ -1,3 +1,4 @@
+# Quentin Berthet - 4/11/2024
 import pytest
 from calculate.operators import Operators
 
