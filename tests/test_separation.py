@@ -11,5 +11,5 @@ def test_separator():
         result = Operators.Add(input_numbers)
 
         # Assert
-        assert(result, expected_result)
+        assert result == expected_result
 
