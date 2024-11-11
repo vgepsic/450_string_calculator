@@ -41,7 +41,7 @@ def test_addition_with_non_numerical_values():
     # assert
     assert returned_value == expected_value
 
-    # groupe 2
+# groupe 2
 
 def test_addition_with_other_separator_than_plus():
     # arrange
