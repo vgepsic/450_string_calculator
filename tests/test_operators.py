@@ -71,3 +71,33 @@ def test_separator_when_too_much_separator_should_ignore_second_separator():
     returned_value = Operators.Add(operation)
     # assert
     assert returned_value == expected_value
+
+### Groupe 3
+
+def test_input_higher_than_thousand():
+    # arrange
+    operation = "1001+1"
+    expected_value = 1
+    # act
+    returned_value = Operators.Add(operation)
+    # assert
+    assert returned_value == expected_value
+
+def test_result_higher_than_thousand():
+    # arrange
+    operation = "505+505"
+    expected_value = 1010
+    # act
+    returned_value = Operators.Add(operation)
+    # assert
+    assert returned_value == expected_value
+    
+    
+def test_input_lower_than_thousand():
+    # arrange
+    operation = "500+400"
+    expected_value = 1000
+    # act
+    returned_value = Operators.Add(operation)
+    # assert
+    assert returned_value == expected_value
