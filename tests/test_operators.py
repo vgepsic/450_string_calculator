@@ -21,6 +21,7 @@ def test_addition_with_zero():
     returned_value = Operators.Add(operation)
 
     # Assert
+    assert returned_value == expected_value
 
 def test_should_ignore_number_greater_than_1000_even_if_not_first_number():
     # arrange
