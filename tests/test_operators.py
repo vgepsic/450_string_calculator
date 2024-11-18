@@ -18,6 +18,10 @@ def test_addition_should_make_simple_addition_with_more_than_two_numbers():
     # arrange
     operation = "9+5+3+46+97+5"
     expected_value = 165
+    #act
+    returned_value = Operators.Add(operation)
+    # assert
+    assert returned_value == expected_value
     
 ## Scénario 3 : somme du plus grand nombre admissible avec un autre chiffre valide
 def test_addition_should_make_simple_addition_with_the_highest_possible_number():
