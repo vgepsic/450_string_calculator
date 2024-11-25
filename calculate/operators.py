@@ -10,7 +10,7 @@ class Operators:
                 number = int(part)
             except :
                 number = 0
-            if number <= 1000 and number >= 0 :
+            if number <= 1000 :
                 # faire l'addition
                 sum += number
         return sum
@@ -26,7 +26,7 @@ class Operators:
                 number = int(part)
             except :
                 number = 0
-            if number <= 1000 and number >= 0 :
+            if number <= 1000 :
                 # faire la soustraction
                 sum -= number
         return sum
