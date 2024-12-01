@@ -26,6 +26,11 @@ Example pour une addition : “12+1+100+3” = 116
 >
 >Note :  Valeurs à ignorer = elles doivent être traitées comme 0 dans le calcul.
 
+>### User story 2 : Soustraction
+>
+>Même que User story 1, mais:
+>- Remplacement d'opération addition par **soustraction**
+>- Remplacement du signe [+] par **[-]**
 
 ## Dépendances
 - Python 3: [Python 3 download](https://www.python.org/downloads/)
